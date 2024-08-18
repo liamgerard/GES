@@ -2,4 +2,6 @@ This Excel Add-in has been designed to significantly enhance the functionality a
 
 For detailed installation, use, and uninstallation instructions, reference the file "1. GerardExcelShortcuts Instructions".
 
-For security verification or to modify the add-in, the uncompiled source code is in the folder "4. Uncompiled Source Code".
+The uncompiled source code is in the folder "4. Uncompiled Source Code" and can be used for security verification or to modify the add-in.
+
+Please note that the GerardExcelShortcuts Add-In functions exclusively on Windows operating systems. This limitation is due to Excel’s reliance on COM objects, which are specific to the Windows platform. As a result, the add-in is incompatible with non-Windows operating systems, such as macOS or Linux.
