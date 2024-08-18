@@ -1,0 +1,227 @@
+{
+  "ToggleFontColor": {
+    "mainKey": [ "OemSemicolon" ],
+    "modKeys": [ "Control" ],
+    "enabled": [ "true" ]
+  },
+  "CycleFontColor1": {
+    "mainKey": [ "OemQuotes" ],
+    "modKeys": [ "Control" ],
+    "enabled": [ "true" ]
+  },
+  "CycleFontColor2": {
+    "mainKey": [ "OemQuotes" ],
+    "modKeys": [ "Control", "Alt" ],
+    "enabled": [ "false" ]
+  },
+  "IncreaseDecimal": {
+    "mainKey": [ "OemComma" ],
+    "modKeys": [ "Control" ],
+    "enabled": [ "true" ]
+  },
+  "DecreaseDecimal": {
+    "mainKey": [ "OemPeriod" ],
+    "modKeys": [ "Control" ],
+    "enabled": [ "true" ]
+  },
+  "ShiftDecimalLeft": {
+    "mainKey": [ "OemComma" ],
+    "modKeys": [ "Alt", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "ShiftDecimalRight": {
+    "mainKey": [ "OemPeriod" ],
+    "modKeys": [ "Alt", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "ToggleGeneralNumberFormats": {
+    "mainKey": [ "D1" ],
+    "modKeys": [ "Control", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "CycleDateFormats": {
+    "mainKey": [ "D2" ],
+    "modKeys": [ "Control", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "CycleCurrency": {
+    "mainKey": [ "D4" ],
+    "modKeys": [ "Control", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "CycleForeignCurrency": {
+    "mainKey": [ "D4" ],
+    "modKeys": [ "Control", "Alt", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "CyclePercent": {
+    "mainKey": [ "D5" ],
+    "modKeys": [ "Control", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "ToggleBPS": {
+    "mainKey": [ "D5" ],
+    "modKeys": [ "Control", "Alt", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "ToggleMultiple": {
+    "mainKey": [ "D8" ],
+    "modKeys": [ "Control", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "CycleOtherNumberFormats1": {
+    "mainKey": [ "D3" ],
+    "modKeys": [ "Control", "Shift" ],
+    "enabled": [ "false" ]
+  },
+  "CycleOtherNumberFormats2": {
+    "mainKey": [ "D6" ],
+    "modKeys": [ "Control", "Shift" ],
+    "enabled": [ "false" ]
+  },
+  "CycleOtherNumberFormats3": {
+    "mainKey": [ "D9" ],
+    "modKeys": [ "Control", "Shift" ],
+    "enabled": [ "false" ]
+  },
+  "OuterBorderRange": {
+    "mainKey": [ "D7" ],
+    "modKeys": [ "Control", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "AllBorderRange": {
+    "mainKey": [ "D7" ],
+    "modKeys": [ "Control", "Alt", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "NoBorders": {
+    "mainKey": [ "OemMinus" ],
+    "modKeys": [ "Control", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "UpperBorderRange": {
+    "mainKey": [ "Up" ],
+    "modKeys": [ "Control", "Alt" ],
+    "enabled": [ "true" ]
+  },
+  "LowerBorderRange": {
+    "mainKey": [ "Down" ],
+    "modKeys": [ "Control", "Alt" ],
+    "enabled": [ "true" ]
+  },
+  "RightBorderRange": {
+    "mainKey": [ "Right" ],
+    "modKeys": [ "Control", "Alt" ],
+    "enabled": [ "true" ]
+  },
+  "LeftBorderRange": {
+    "mainKey": [ "Left" ],
+    "modKeys": [ "Control", "Alt" ],
+    "enabled": [ "true" ]
+  },
+  "RowAutoFit": {
+    "mainKey": [ "Up" ],
+    "modKeys": [ "Control", "Alt", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "RowHeight": {
+    "mainKey": [ "Down" ],
+    "modKeys": [ "Control", "Alt", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "ColumnWidth": {
+    "mainKey": [ "Right" ],
+    "modKeys": [ "Control", "Alt", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "ColumnAutoFit": {
+    "mainKey": [ "Left" ],
+    "modKeys": [ "Control", "Alt", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "ToggleCellSign": {
+    "mainKey": [ "N" ],
+    "modKeys": [ "Control", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "AutoColorCells": {
+    "mainKey": [ "A" ],
+    "modKeys": [ "Control", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "CycleFillColor1": {
+    "mainKey": [ "K" ],
+    "modKeys": [ "Control", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "CycleFillColor2": {
+    "mainKey": [ "K" ],
+    "modKeys": [ "Control", "Alt", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "IncreaseFontSize": {
+    "mainKey": [ "F" ],
+    "modKeys": [ "Control", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "DecreaseFontSize": {
+    "mainKey": [ "F" ],
+    "modKeys": [ "Control", "Alt", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "ToggleBinary": {
+    "mainKey": [ "Y" ],
+    "modKeys": [ "Control", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "HorizontalAlignCycle": {
+    "mainKey": [ "H" ],
+    "modKeys": [ "Control", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "VerticalAlignCycle": {
+    "mainKey": [ "V" ],
+    "modKeys": [ "Control", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "ToggleCenterOverSelection": {
+    "mainKey": [ "M" ],
+    "modKeys": [ "Control", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "MergeCells": {
+    "mainKey": [ "M" ],
+    "modKeys": [ "Control", "Alt", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "WrapText": {
+    "mainKey": [ "W" ],
+    "modKeys": [ "Control", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "IncreaseIndent": {
+    "mainKey": [ "I" ],
+    "modKeys": [ "Control", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "DecreaseIndent": {
+    "mainKey": [ "I" ],
+    "modKeys": [ "Control", "Alt", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "IfError": {
+    "mainKey": [ "E" ],
+    "modKeys": [ "Control", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "CleanCells": {
+    "mainKey": [ "D" ],
+    "modKeys": [ "Control", "Shift" ],
+    "enabled": [ "true" ]
+  },
+  "FlattenSelection": {
+    "mainKey": [ "U" ],
+    "modKeys": [ "Control", "Shift", "Alt" ],
+    "enabled": [ "true" ]
+  },
+}

@@ -1,0 +1,24 @@
+﻿<Window x:Class="GES.ConfirmationForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Microsoft Excel"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterOwner"
+        AllowsTransparency="False" SizeToContent="WidthAndHeight">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Border Padding="30" Background="#f8f8f8">
+        <Grid FocusManager.FocusedElement="{Binding ElementName=ConfirmButton}">
+            <Label Name="ConfirmLabel" Content="Confirm..." Style="{StaticResource Label1}" VerticalAlignment="Top" Width="Auto" Height="30" Margin="0,0,0,0" />
+            <TextBlock Text="This action cannot be undone." Style="{StaticResource Subtitle1}" VerticalAlignment="Top" Width="Auto" Height="30" Margin="0,30,0,50" />
+            <Button x:Name="ConfirmButton" Content="Confirm" Style="{StaticResource ConfirmButtonStyle}" Height="25" Width="100" Click="Button_Click" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,140,0" />
+            <Button Content="Cancel" Style="{StaticResource ConfirmButtonStyle}" Height="25" Width="100" Click="Button_Click_1" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="140,0,0,0" />
+        </Grid>
+    </Border>
+</Window>

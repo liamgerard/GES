@@ -1,0 +1,23 @@
+﻿<Window x:Class="GES.ErrorForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Microsoft Excel"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterOwner"
+        AllowsTransparency="False" SizeToContent="WidthAndHeight">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Border Padding="30" Background="#f8f8f8">
+        <Grid FocusManager.FocusedElement="{Binding ElementName=OkayButton}" MaxWidth="500">
+            <Label Name="ErrorLabel" Content="Error" Style="{StaticResource Label1}" VerticalAlignment="Top" Width="Auto" Height="Auto" Margin="0,0,0,0" />
+            <TextBlock Name="ErrorText" Text="Error" Style="{StaticResource Subtitle1}" VerticalAlignment="Top" Width="Auto" Height="Auto" Margin="0,30,0,45" />
+            <Button x:Name="OkayButton" Content="Okay" Style="{StaticResource ConfirmButtonStyle}" Height="25" Width="100" Click="Button_Click" HorizontalAlignment="Center" VerticalAlignment="Bottom" />
+        </Grid>
+    </Border>
+</Window>

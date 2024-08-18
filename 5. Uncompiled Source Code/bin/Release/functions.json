@@ -1,0 +1,182 @@
+{
+  "Cycle General Number Formats": {
+    "fun": "ToggleGeneralNumberFormats",
+    "type": "number"
+  },
+  "Cycle Date Formats": {
+    "fun": "CycleDateFormats",
+    "type": "number"
+  },
+  "Cycle Currency Formats": {
+    "fun": "CycleCurrency",
+    "type": "number"
+  },
+  "Cycle Foreign Currencies": {
+    "fun": "CycleForeignCurrency",
+    "type": "number"
+  },
+  "Cycle Percentage Formats": {
+    "fun": "CyclePercent",
+    "type": "number"
+  },
+  "Toggle BPS": {
+    "fun": "ToggleBPS",
+    "type": "none"
+  },
+  "Cycle Multiples Formats": {
+    "fun": "ToggleMultiple",
+    "type": "number"
+  },
+  "Cycle Binary Formats": {
+    "fun": "ToggleBinary",
+    "type": "number"
+  },
+  "Cycle Other Number Formats 1": {
+    "fun": "CycleOtherNumberFormats1",
+    "type": "number"
+  },
+  "Cycle Other Number Formats 2": {
+    "fun": "CycleOtherNumberFormats2",
+    "type": "number"
+  },
+  "Cycle Other Number Formats 3": {
+    "fun": "CycleOtherNumberFormats3",
+    "type": "number"
+  },
+  "Increase Decimal": {
+    "fun": "IncreaseDecimal",
+    "type": "none"
+  },
+  "Decrease Decimal": {
+    "fun": "DecreaseDecimal",
+    "type": "none"
+  },
+  "Toggle Font Color": {
+    "fun": "ToggleFontColor",
+    "type": "color"
+  },
+  "Cycle Font Color 1": {
+    "fun": "CycleFontColor1",
+    "type": "color"
+  },
+  "Cycle Font Color 2": {
+    "fun": "CycleFontColor2",
+    "type": "color"
+  },
+  "Cycle Fill Color 1": {
+    "fun": "CycleFillColor1",
+    "type": "color"
+  },
+  "Cycle Fill Color 2": {
+    "fun": "CycleFillColor2",
+    "type": "color"
+  },
+  "Autocolor Cells": {
+    "fun": "AutoColorCells",
+    "type": "autocolor"
+  },
+  "Toggle Negative": {
+    "fun": "ToggleCellSign",
+    "type": "none"
+  },
+  "Shift Decimal Left": {
+    "fun": "ShiftDecimalLeft",
+    "type": "none"
+  },
+  "Shift Decimal Right": {
+    "fun": "ShiftDecimalRight",
+    "type": "none"
+  },
+  "Clean Cells": {
+    "fun": "CleanCells",
+    "type": "none"
+  },
+  "Flatten Selection": {
+    "fun": "FlattenSelection",
+    "type": "none"
+  },
+  "If Error Wrap": {
+    "fun": "IfError",
+    "type": "otherNum"
+  },
+  "Outer Border Range": {
+    "fun": "OuterBorderRange",
+    "type": "none"
+  },
+  "All Border Range": {
+    "fun": "AllBorderRange",
+    "type": "none"
+  },
+  "No Borders": {
+    "fun": "NoBorders",
+    "type": "none"
+  },
+  "Upper Borders": {
+    "fun": "UpperBorderRange",
+    "type": "none"
+  },
+  "Lower Borders": {
+    "fun": "LowerBorderRange",
+    "type": "none"
+  },
+  "Right Borders": {
+    "fun": "RightBorderRange",
+    "type": "none"
+  },
+  "Left Borders": {
+    "fun": "LeftBorderRange",
+    "type": "none"
+  },
+  "Vertical Alignment Cycle": {
+    "fun": "VerticalAlignCycle",
+    "type": "none"
+  },
+  "Horizontal Alignment Cycle": {
+    "fun": "HorizontalAlignCycle",
+    "type": "none"
+  },
+  "Increase Indent": {
+    "fun": "IncreaseIndent",
+    "type": "none"
+  },
+  "Decrease Indent": {
+    "fun": "DecreaseIndent",
+    "type": "none"
+  },
+  "Center Over Selection": {
+    "fun": "ToggleCenterOverSelection",
+    "type": "none"
+  },
+  "Merge Cells": {
+    "fun": "MergeCells",
+    "type": "none"
+  },
+  "Wrap Text": {
+    "fun": "WrapText",
+    "type": "none"
+  },
+  "Increase Font Size": {
+    "fun": "IncreaseFontSize",
+    "type": "none"
+  },
+  "Decrease Font Size": {
+    "fun": "DecreaseFontSize",
+    "type": "none"
+  },
+  "Column Autofit": {
+    "fun": "ColumnAutoFit",
+    "type": "none"
+  },
+  "Increase Column Width": {
+    "fun": "ColumnWidth",
+    "type": "none"
+  },
+  "Row Autofit": {
+    "fun": "RowAutoFit",
+    "type": "none"
+  },
+  "Increase Row Height": {
+    "fun": "RowHeight",
+    "type": "none"
+  }
+}

@@ -1,0 +1,89 @@
+﻿<Window x:Class="GES.FormatFormPopup"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStartupLocation="CenterScreen"
+        Width="450" Height="550"
+        Title="Settings">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <ScrollViewer HorizontalScrollBarVisibility="Disabled">
+        <Grid Background="#f8f8f8">
+            <Border Grid.Column="1" Padding="10" BorderThickness="1" BorderBrush="LightGray">
+                <StackPanel>
+                    <StackPanel Name="numContent" Visibility="Collapsed">
+                        <!--<Label Content="Number Formats" Style="{StaticResource ContentTitle}" VerticalAlignment="Top" Width="Auto" Height="30" HorizontalContentAlignment="Center" Padding="0,0,0,10" />
+                        <Grid Name="Grid1">
+                            <TextBox Name="TB1" Style="{StaticResource NumFormTextBox}" />
+                            <Button Name="DB1" Content="X" Style="{StaticResource RemoveButtonStyle}" HorizontalAlignment="Right" Margin="10,0,0,0" VerticalAlignment="Top" Click="RemoveButton_Click" />
+                        </Grid>
+                        <Grid Name="Grid2">
+                            <TextBox Name="TB2" Style="{StaticResource NumFormTextBox}" />
+                            <Button Name="DB2" Content="X" Style="{StaticResource RemoveButtonStyle}" HorizontalAlignment="Right" Margin="10,0,0,0" VerticalAlignment="Top" Click="RemoveButton_Click" />
+                        </Grid>
+                        <Grid Name="Grid3">
+                            <TextBox Name="TB3" Style="{StaticResource NumFormTextBox}" />
+                            <Button Name="DB3" Content="X" Style="{StaticResource RemoveButtonStyle}" HorizontalAlignment="Right" Margin="10,0,0,0" VerticalAlignment="Top" Click="RemoveButton_Click" />
+                        </Grid>
+                        <Button Name="addNum" Content="+" Style="{StaticResource AddButtonStyle}" HorizontalContentAlignment="Center" Click="addNum_Click"/>
+                        <Grid Margin="0,20,0,0">
+                            <Button Name="saveNum" Content="Save" Style="{StaticResource CtrlButtonStyle}" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Width="80" VerticalAlignment="Bottom" Margin="0,0,100,0" Click="saveNum_Click"/>
+                            <Button Name="resetNum" Content="Reset" Style="{StaticResource CtrlButtonStyle}" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Width="80" VerticalAlignment="Bottom" Margin="100,0,0,0" Click="resetNum_Click"/>
+                        </Grid>-->
+                    </StackPanel>
+                    <StackPanel Name="colContent" Visibility="Collapsed">
+                        <!--<Label Content="Colors" Style="{StaticResource ContentTitle}" VerticalAlignment="Top" Width="Auto" Height="30" HorizontalContentAlignment="Center" Padding="0,0,0,10" />
+                        <Grid Name="c1">
+                            <Button Style="{StaticResource ColorDisplay}"/>
+                            <TextBox Name="c1a" Style="{StaticResource ColorTextBox}" Margin="0,0,110,10"/>
+                            <TextBox Name="c1b" Style="{StaticResource ColorTextBox}" Margin="0,0,0,10"/>
+                            <TextBox Name="c1c" Style="{StaticResource ColorTextBox}" Margin="110,0,0,10"/>
+                        </Grid>
+                        <Grid Name="c2">
+                            <TextBox Name="c2a" Style="{StaticResource ColorTextBox}" Margin="0,0,110,10"/>
+                            <TextBox Name="c2b" Style="{StaticResource ColorTextBox}" Margin="0,0,0,10"/>
+                            <TextBox Name="c2c" Style="{StaticResource ColorTextBox}" Margin="110,0,0,10"/>
+                        </Grid>
+                        <Grid Name="c3">
+                            <TextBox Name="c3a" Style="{StaticResource ColorTextBox}" Margin="0,0,110,10"/>
+                            <TextBox Name="c3b" Style="{StaticResource ColorTextBox}" Margin="0,0,0,10"/>
+                            <TextBox Name="c3c" Style="{StaticResource ColorTextBox}" Margin="110,0,0,10"/>
+                        </Grid>
+                        <Grid Name="c4">
+                            <TextBox Name="c4a" Style="{StaticResource ColorTextBox}" Margin="0,0,110,10"/>
+                            <TextBox Name="c4b" Style="{StaticResource ColorTextBox}" Margin="0,0,0,10"/>
+                            <TextBox Name="c4c" Style="{StaticResource ColorTextBox}" Margin="110,0,0,10"/>
+                        </Grid>
+                        <Button Name="addCol" Content="+" Style="{StaticResource AddButtonStyle}" HorizontalContentAlignment="Center" Click="addCol_Click"/>
+                        <Grid Margin="0,20,0,0">
+                            <Button Name="saveCol" Content="Save" Style="{StaticResource CtrlButtonStyle}" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Width="80" VerticalAlignment="Bottom" Margin="0,0,100,0" Click="saveCol_Click"/>
+                            <Button Name="resetCol" Content="Reset" Style="{StaticResource CtrlButtonStyle}" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Width="80" VerticalAlignment="Bottom" Margin="100,0,0,0" Click="resetCol_Click"/>
+                        </Grid>-->
+                    </StackPanel>
+                    <StackPanel Name="othContent" Visibility="Collapsed">
+                        <!--<Label Content="Formats" Style="{StaticResource ContentTitle}" VerticalAlignment="Top" Width="Auto" Height="30" HorizontalContentAlignment="Center" Padding="0,0,0,10" />
+                        <Grid Name="o1">
+                            <TextBox Name="oTB1" Style="{StaticResource NumFormTextBox}" />
+                        </Grid>
+                        <Grid Name="o2">
+                            <TextBox Name="oTB2" Style="{StaticResource NumFormTextBox}" />
+                        </Grid>
+                        <Grid Name="o3">
+                            <TextBox Name="oTB3" Style="{StaticResource NumFormTextBox}" />
+                        </Grid>
+                        <Grid Margin="0,10,0,0">
+                            <Button Name="saveOther" Content="Save" Style="{StaticResource CtrlButtonStyle}" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Width="80" VerticalAlignment="Bottom" Margin="0,0,100,0" Click="saveOth_Click"/>
+                            <Button Name="resetOther" Content="Reset" Style="{StaticResource CtrlButtonStyle}" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Width="80" VerticalAlignment="Bottom" Margin="100,0,0,0" Click="resetOth_Click"/>
+                        </Grid>-->
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </ScrollViewer>
+</Window>
